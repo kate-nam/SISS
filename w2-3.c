@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     int a,b;
     printf("정수의 값을 입력하세요");
     scanf("%d", &a);
