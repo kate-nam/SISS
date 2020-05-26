@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main() {
     double year, sec, a, b;
     int day, hour, min;
     year = 365.2422;
@@ -19,5 +19,5 @@ int main(int argc, const char * argv[]) {
     min= (int)(b); // 정수형으로 바꿈. 48분
     sec= (b-min)*60; //0.768분을 46.08초로 바꿈
     printf("%.4f일은 %d일 %d시간 %d분 %.2f초입니다.\n", year, day, hour, min, sec);
-    
+    return 0;
 }

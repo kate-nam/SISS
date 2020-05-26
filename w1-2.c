@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     int a, b, c, d; //a,b,c,d는 모두 양의 정수
     printf("분수의 합을 입력하시오:");
     scanf("%d/%d+%d/%d", &a, &b, &c, &d);// a/b+c/d= a*d+b*c/b*d 분수의 합

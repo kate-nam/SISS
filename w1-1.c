@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-int main(int argc, const char * argv[])  {
+int main()  {
     float f, c; //화씨,섭씨온도는 실수형 변수
     printf("화씨 온도를 입력하세요:");
     scanf("%f", &f);
