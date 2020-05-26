@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     int a;
     float b, x;
     printf("몸무게를 입력하세요(kg):");
