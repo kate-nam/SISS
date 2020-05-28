@@ -18,6 +18,6 @@ int main(void){
     }
     printf("\n");
     for(i=0;i<5;i++){
-        printf("arr[%d]의 값:%d\t arr[%d]의 값:%d\n",i,*pi+i,i,pi[i]);
+        printf("arr[%d]의 값:%d\t arr[%d]의 값:%d\n",i,*(pi+i),i,pi[i]);
     }
 }
